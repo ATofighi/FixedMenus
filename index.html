@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.menu {
+	background: #f4f4f4;
+	border: 1px solid #bbb;
+	padding: 25px;
+	border-radius: 6px;
+	margin: 50px;
+	list-style: none;
+	height: 20px;
+}
+
+.menu li {
+	float: left;
+	padding: 0 5px;
+}
+
+.fixedMenu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 0;
+	padding: 15px 20px;
+	background: #f9f9f9;
+	box-shadow: 3px 0 10px rgba(0, 0, 0, 0.3);
+}
+</style>
+</head>
+<body>
+<ul class="menu">
+	<li>Home</li>
+	<li>Menu</li>
+	<li>Menu</li>
+	<li>Menu</li>
+</ul>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="fixedmenus.js"></script>
+<script>
+	$('.menu').fixedMenu();
+</script>
+</body>
+</html>
